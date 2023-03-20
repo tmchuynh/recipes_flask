@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.container * {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form p {
+    color: red;
+}
+
+tr a {
+    float: right;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(34, 130, 219);
+}
+
+.btn {
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: rgb(84, 185, 231);
+    text-decoration: none;
+    border: none;
+}
+
+.btn-secondary:hover {
+    color: black;
+    background-color: rgb(158, 167, 172);
+    text-decoration: none;
+    border: none;
+}
